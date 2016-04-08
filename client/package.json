@@ -1,0 +1,24 @@
+{
+  "name": "entityAuto",
+  "main": "./view/index.html",
+  "window": {
+    "toolbar": true,
+    "width": 1000,
+    "height": 600,
+    "frame": true,
+    "icon": "",
+    "kiosk": false
+  },
+  "webkit": {
+    "plugin": true
+  },
+  "user-agent": "%name",
+  "dependencies": {
+    "async": "*",
+    "ejs": "^2.4.1",
+    "ejs2": "^2.1.0",
+    "fs-extra": "^0.26.7",
+    "mysql": "^2.10.2",
+    "nedb": "^1.8.0"
+  }
+}
